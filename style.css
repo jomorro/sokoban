@@ -1,0 +1,83 @@
+body {
+    background: purple;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2em;
+    width: 5em;
+    color: gold;
+    font-family: Arial, sans-serif;
+    font-weight: bolder;
+    background: purple;
+    margin-left: auto;
+    margin-right: auto;
+    padding: .3em;
+    border-radius: 1em;
+}
+
+h2 {
+    text-align: center;
+    color: gold;
+    font-family: Arial, sans-serif;
+}
+
+#player {
+    width: 3em;
+    height: 3em;
+    background: none;
+    position: absolute;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.mazeRow {
+    display: flex;
+    flex-direction: row;
+}
+
+.borderWall {
+    height: 3em;
+    width: 3em;
+    background: gold;
+}
+
+#start {
+    height: 3em;
+    width: 3em;
+    background: gray;
+    border: .02em solid white;
+    box-sizing: border-box;
+    border-top: none;
+}
+
+.blankSpace {
+    height: 3em;
+    width: 3em;
+    background: white;
+}
+
+.openStorage {
+    height: 3em;
+    width: 3em;
+    background-image: url(rim.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.box {
+    height: 2em;
+    width: 2em;
+    background-image: url(ball.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: .5em;
+    margin-top: .5em;
+}
